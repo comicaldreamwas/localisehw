@@ -466,7 +466,7 @@ width: 187px;
 }
 
 .burger-menu {
-   display: none; /* Початково ховаємо бургер-меню */
+   display: none; 
    flex-direction: column;
    justify-content: space-between;
    width: 30px;
