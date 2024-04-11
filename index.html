@@ -15,21 +15,19 @@
           <div class="navList">
             <img class="imgLogo" src="./img/logo.png" alt="logo" />
             <ul class="navUl">
-              <li class="navLi">Product</li>
-              <li class="navLi">Features</li>
-              <li class="navLi">Pricing</li>
-              <li class="navLi">Case studies</li>
-              <li class="navLi">Resources</li>
-            </ul>
+                <li class="navLi">Product</li>
+                <li class="navLi">Features</li>
+                <li class="navLi">Pricing</li>
+                <li class="navLi">Case studies</li>
+                <li class="navLi">Resources</li>
+          </ul>
           </div>
           <div class="navButtons">
             <button class="btnLog">Log in</button>
             <button class="btnTake">Try it free</button>
           </div>
-          <div class="burger-menu">
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
+          <div class="burger-menu ">
+           <span></span>
           </div>
         </div>
       </div>
@@ -377,5 +375,14 @@
 </div></div>
   
     </footer>
+
+
+
+    <script>
+     document.querySelector('.burger-menu').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.navUl').classList.toggle('open');
+});
+    </script>
   </body>
 </html>
